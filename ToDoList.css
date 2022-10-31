@@ -1,0 +1,120 @@
+* {
+
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+
+    background-color: skyblue;
+}
+
+.topLayout {
+
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#image {
+
+    border-radius: 4px;
+}
+
+#mainForm {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  
+}
+
+.enterList {
+
+    display: flex;
+}
+
+#saveButton {
+
+    margin-right:5px;
+}
+
+#listName {
+
+    border-radius: 3px;
+    margin-right: 10px;
+    padding: 5px;
+    border: none;
+    
+}
+
+#listName:focus {
+
+    outline: none;
+}
+
+.finalResult {
+
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding: 10px;
+}
+
+#result {
+
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 700px;
+    height: 400px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px grey ;
+    overflow-y:scroll;
+
+}
+
+#listNameId {
+
+    width:450px;
+    overflow-wrap: anywhere;
+
+}
+
+.listRow {
+
+    display: flex;
+    background-color:thistle;
+    justify-content: space-between;
+    margin: 8px;
+    border-radius: 3px;
+    align-items: center;
+    
+}
+
+p {
+
+   font-size: 20px;
+
+}
+
+#inputItems {
+
+    width: 100%;
+}
+
+#addButton {
+
+    margin-right: 6px;
+}
+
+#tikMark {
+
+    margin-right: 10px;
+    font-size: 20px;
+   
+}
+
+
+
